@@ -37,7 +37,9 @@
               "node_modules/uswds/dist/css/uswds.min.css",
               "src/styles.css"
             ],
-            "scripts": ["node_modules/uswds/dist/js/uswds.min.js"]
+            "scripts": [
+              "node_modules/uswds/dist/js/uswds.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,8 +96,13 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
             "scripts": []
           }
         },
@@ -107,7 +114,9 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -121,6 +130,10 @@
               "devServerTarget": "ng-uswds-starter:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
