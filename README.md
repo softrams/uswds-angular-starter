@@ -1,10 +1,10 @@
 # Angular Starter with USWDS Design System
 
-A quick Angular application starter to use USWDS Design System. This sample included the design system and
-used the page template as an example. Please checkback later, for better integration and include
-header, footer and routing support.
+A quick Angular application starter to use [USWDS Design System](https://designsystem.digital.gov/). This sample included the design system and
+used the page template as an example. Please checkback later, for better integration and support for additional
+components.
 
-## Installing & Setting up USWDS Design System
+## Setup
 
 Once Angular application is created, add the design system. Same steps work, even to add the design system
 to an existing application
