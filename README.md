@@ -1,6 +1,41 @@
-# NgUswdsStarter
+# Angular Starter with USWDS Design System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+A quick Angular application starter to use USWDS Design System. This sample included the design system and
+used the page template as an example. Please checkback later, for better integration and include
+header, footer and routing support.
+
+## Installing & Setting up USWDS Design System
+
+Once Angular application is created, add the design system. Same steps work, even to add the design system
+to an existing application
+
+```bash
+npm install --save uswds@latest
+```
+
+Now, update angular.json file to include css, js, fonts and img folders appropriately
+
+```json
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              {
+                "glob": "*",
+                "input": "node_modules/uswds/dist/fonts",
+                "output": "assets/fonts/"
+              },
+              {
+                "glob": "*",
+                "input": "node_modules/uswds/dist/img",
+                "output": "assets/img/"
+              }
+            ],
+            "styles": [
+              "node_modules/uswds/dist/css/uswds.min.css",
+              "src/styles.css"
+            ],
+            "scripts": ["node_modules/uswds/dist/js/uswds.min.js"]
+```
 
 ## Development server
 
