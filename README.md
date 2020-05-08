@@ -1,8 +1,10 @@
-# Angular Starter with USWDS Design System
+# Angular Starter with US Web Design System (USWDS)
 
-A quick Angular application starter to use [USWDS Design System](https://designsystem.digital.gov/). This sample included the design system and
+A quick Angular application starter to use [US Web Design System](https://designsystem.digital.gov/). This sample included the design system and
 used the page template as an example. Please checkback later, for better integration and support for additional
 components.
+
+Checkout demo at https://github.com/softrams/uswds-angular-starter.
 
 ## Setup
 
