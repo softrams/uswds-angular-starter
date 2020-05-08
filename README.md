@@ -13,7 +13,7 @@ to an existing application
 npm install --save uswds@latest
 ```
 
-Now, update angular.json file to include css, js, fonts and img folders appropriately
+Now, update angular.json file to include css, js, fonts and img folders appropriately.
 
 ```json
             "assets": [

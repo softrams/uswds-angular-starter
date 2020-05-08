@@ -1,5 +1,5 @@
 {
-  "name": "ng-uswds-starter",
+  "name": "uswds-angular-starter",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "docs": "ng deploy --base-href=/uswds-angular-starter/"
+    "gh-pages": "ng deploy --cname=https://uswds-angular-starter.softrams.cloud"
   },
   "private": true,
   "dependencies": {
