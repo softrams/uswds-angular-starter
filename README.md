@@ -6,7 +6,21 @@ components.
 
 Checkout demo at https://github.com/softrams/uswds-angular-starter.
 
-## Setup
+## Use this starter
+
+You may use this as your Angular CLI project starter. Just clone and get started. Or see 'Setup' to add USWDS to a new Angular CLI project or
+an existing Angluar CLI project.
+
+```bash
+git clone https://github.com/softrams/uswds-angular-starter my-app-name
+cd my-app-name
+npm install
+ng serve
+```
+
+You may find and replace **"uswds-angular-starter"** with **"my-app-name"** to replace the project name.
+
+## Use USWDS in a new or existing Angular CLI Project
 
 Once Angular application is created, add the design system. Same steps work, even to add the design system
 to an existing application
